@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Check In Ride</string>
+    <string name="google_maps_API_key">AIzaSyCrukR8wLdpoj2vaPdK9k5J0QtTdrTXeMw</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">Change colours</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Change the colours of the app</string>
+    <string name="title_activity_detail_fragment">DetailFragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_list_fragment">ListFragment</string>
+</resources>

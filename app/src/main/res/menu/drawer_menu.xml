@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_checkin"
+            android:icon="@drawable/ic_checkin"
+            android:title="Check History" />
+        <item
+            android:id="@+id/nav_findhotel"
+            android:icon="@drawable/ic_findhotel"
+            android:title="Find Hotel" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message"
+            android:title="Message Hotel" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Your Notebook" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:title="Make a memory"/>
+    </group>
+
+</menu>

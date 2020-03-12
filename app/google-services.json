@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "226549387806",
+    "firebase_url": "https://checkinridemap.firebaseio.com",
+    "project_id": "checkinridemap",
+    "storage_bucket": "checkinridemap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226549387806:android:032e45a3128c991dac940f",
+        "android_client_info": {
+          "package_name": "com.example.guestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226549387806-qor8qh0u77frltrdrpjn1ev8aaojler0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guestapp",
+            "certificate_hash": "6e48be2247da83e5fa4f7abd2234eeee7db47e1a"
+          }
+        },
+        {
+          "client_id": "226549387806-4h1mnp84j6tko5m5431ce1nk7u41la50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDukc-MBICFHODqr8B8x5dcSlRkOTiJ2F0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226549387806-4h1mnp84j6tko5m5431ce1nk7u41la50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
