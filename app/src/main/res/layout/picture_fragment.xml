@@ -35,5 +35,18 @@
         android:layout_marginRight="15dp"
         />
 
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnCameraSend"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:text="Send!"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        />
+
 
 </LinearLayout>

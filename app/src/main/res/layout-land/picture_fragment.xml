@@ -1,40 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:paddingTop="16dp">
+    android:paddingTop="16dp"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/PictureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:paddingTop="5dp"
+            android:text="Want to make a picture of your stay?" />
 
-    <TextView
-        android:id="@+id/PictureText"
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="220dp"
+            android:id="@+id/PictureView"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            />
+
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="15dp"
-        android:paddingTop="5dp"
-        android:text="Want to make a picture of your stay?" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        >
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamera"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:text="Make picture"
+            android:layout_gravity="center"
+            />
 
-    <ImageView
-        android:layout_width="220dp"
-        android:layout_height="220dp"
-        android:id="@+id/PictureView"
-        android:layout_margin="5dp"
-        android:layout_gravity="center"
-        android:background="@drawable/border"
-        />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCameraSend"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:text="Send!"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            />
 
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:id="@+id/btnCamera"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorWhite"
-        android:text="Make picture"
-        android:layout_gravity="center"
-        />
+    </LinearLayout>
 
 
 </LinearLayout>
